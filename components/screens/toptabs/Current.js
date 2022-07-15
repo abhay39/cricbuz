@@ -57,7 +57,7 @@ const Current = () => {
 
 
     
-  }).catch(err => console.error(err));
+  }).catch(err => {});
 }
   const commentry=() => {
     fetch('https://unofficial-cricbuzz.p.rapidapi.com/matches/get-commentaries?matchId=38657',{
@@ -95,7 +95,7 @@ const Current = () => {
     setMatchStatus(response.matchHeaders.status);
    
     
-  }).catch(err => console.error(err));
+  }).catch(err => {});
 }
 
 

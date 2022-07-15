@@ -24,9 +24,9 @@ const Home = ({ navigation }) => {
     })
 	.then(response => response.json())
 	.then(response => 
-    console.log(response)
+    {}
     )
-	.catch(err => console.error(err));
+	.catch(err => {});
 }
 
   return (
