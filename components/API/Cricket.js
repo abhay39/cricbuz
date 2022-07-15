@@ -7,6 +7,6 @@ const fetchApi=() => {
 	    }
     })
 	.then(response => response.json())
-	.then(response => console.log(response[0]))
-	.catch(err => console.error(err));
+	.then(response => {})
+	.catch(err => {});
 }
